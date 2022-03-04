@@ -19,7 +19,7 @@ public class Task2 {
                 .collect(Collectors.toList());
 
         // answer
-        ids = invoices.stream()
+        ids =  oracleAndTrainingInvoices.stream()
                 .map(invoice -> invoice.getId())
                 .collect(Collectors.toList());
 
